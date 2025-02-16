@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bgg {
+    background-image: url(/bg_3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    margin-top: -70px; 
+}
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    background: rgba(255, 255, 255, 0.2);
+    margin-top: 15px;
+}
+.top-bar {
+    background-color: #007bff;
+    padding: 10px 0;
+    font-size: 14px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1050;
+}
+.navbar-nav .nav-link {
+    position: relative;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover {
+    border-bottom: 2px solid #007bff;
+    transition: all 0.1s ease-in-out;
+    
+}
+.bgg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    padding-left: 200px; 
+    padding-bottom: 150px;
+}
+
+.bgg p:first-child {
+    font-size: larger;
+    margin-bottom: 10px; 
+    margin-top: 200px;
+
+}
+
+.bgg h1 {
+    font-size: 70px;
+    font-style: italic;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.icon-container {
+    width: 100px;
+    height: 70px;
+    background-color: #ffe6e6; 
+    border-radius: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    color: tomato;
+  }
+  .tnd {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    overflow: hidden; 
+  }
+  .departments{
+    background-image: url(/bg_2.jpg);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.imagee img{
+    height: 600px;
+    
+}
+.card {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.card img {
+    width: 100%;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover img {
+    opacity: 0.3;
+}
+
+.overlay {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 60%;
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}
+
+.bggtwo {
+    background: url(/bg_3.jpg) ;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.over{
+    background-color: #007bff;
+    opacity: 0.7;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding-left: 90px;
+    padding-top: 150px;
+}
+.testimonial-section {
+    
+    padding: 50px 0;
+    margin-top: 60px;
+    background-image: url('/bg_3.jpg');
+    
+  }
+  
+  .testimonial-card {
+    padding: 20px;
+    border-radius: 10px;
+    
+  }
+  
+  .testimonial-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .testimonial-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .quote-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 5px;
+  }
+  
+  .swiper-pagination {
+    margin-top: 10px;
+  }
+footer{
+    background-image: url('/footer-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  }
+html{
+    scroll-behavior: smooth;
+}
+.bga {
+  background-image: url('/bg_1.jpg'); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 90vh; 
+  display: flex;
+  align-items: center;
+}
+
+.App {
+  padding-left: 5%;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  position: relative;
+}
+
+.breadcrumb-container {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  margin-top: 90px;
+}
+
+.breadcrumb {
+  font-size: 1.2rem;
+  color: #444;
+  text-decoration: none;
+}

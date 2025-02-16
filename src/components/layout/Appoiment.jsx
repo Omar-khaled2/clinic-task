@@ -21,7 +21,7 @@ export default class Appoiment extends Component {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-6">
-              <img src="/about.jpg" alt="doc" className="img-fluid w-75" />
+              <img src="./public/about.jpg" alt="doc" className="img-fluid w-75" />
             </div>
 
             <div className="col-md-6">
@@ -125,7 +125,7 @@ export default class Appoiment extends Component {
           <div className="row row-cols-1 row-cols-md-3 g-4 w-75 cards justify-content-center">
             <div className="col d-flex justify-content-center">
               <div className="card text-center">
-                <img src="/image_1.jpg" className="card-img-top" alt="..." />
+                <img src="./public/image_1.jpg" className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title ">Scary Thing That You Don’t Get Enough Sleep</h5>
                   <p className="card-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -136,7 +136,7 @@ export default class Appoiment extends Component {
             </div>
             <div className="col d-flex justify-content-center">
               <div className="card text-center">
-                <img src="/image_2.jpg" className="card-img-top" alt="..." />
+                <img src="./public/image_2.jpg" className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">Scary Thing That You Don’t Get Enough Sleep</h5>
                   <p className="card-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -147,7 +147,7 @@ export default class Appoiment extends Component {
             </div>
             <div className="col d-flex justify-content-center">
               <div className="card text-center">
-                <img src="/image_3.jpg" className="card-img-top" alt="..." />
+                <img src="./public/image_3.jpg" className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">Scary Thing That You Don’t Get Enough Sleep</h5>
                   <p className="card-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>

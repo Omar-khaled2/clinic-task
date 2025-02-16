@@ -14,32 +14,32 @@ import { Link } from 'react-router';
 
 const testimonials = [
   {
-    img: "/person_1.jpg",
+    img: "./public/person_1.jpg",
     name: "Jeff Freshman",
     text: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
   {
-    img: "/person_2.jpg",
+    img: "./public/person_2.jpg",
     name: "John Doe",
     text: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
   {
-    img: "/person_3.jpg",
+    img: "./public/person_3.jpg",
     name: "Alice Smith",
     text: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
   {
-    img: "/person_1.jpg",
+    img: "./public/person_1.jpg",
     name: "Jeff Freshman",
     text: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
   {
-    img: "/person_2.jpg",
+    img: "./public/person_2.jpg",
     name: "John Doe",
     text: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
   {
-    img: "/person_3.jpg",
+    img: "./public/person_3.jpg",
     name: "Alice Smith",
     text: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
@@ -82,7 +82,7 @@ export default class LandingPage extends Component {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-6">
-              <img src="/about.jpg" alt="doc" className="img-fluid w-75" />
+              <img src="./public/about.jpg" alt="doc" className="img-fluid w-75" />
             </div>
 
             <div className="col-md-6">
@@ -288,7 +288,7 @@ export default class LandingPage extends Component {
         <div className="row">
 
           <div className="col-md-4 imagee">
-            <img src="/dept-1.jpg" alt="hand" className="img-fluid" />
+            <img src="./public/dept-1.jpg" alt="hand" className="img-fluid" />
           </div>
 
 
@@ -323,7 +323,7 @@ export default class LandingPage extends Component {
         </div>
         <div className="card-group mt-3 pt-5 gap-4 text-center ">
           <div className="card ps-4">
-            <img src="/doc-1.jpg" className="card-img-top" alt="..." />
+            <img src="./public/doc-1.jpg" className="card-img-top" alt="..." />
             <div className="overlay">
               <ul className=' d-flex gap-4 list-unstyled  justify-content-center'>
                 <a href="#"><li> <FontAwesomeIcon icon={faFacebook} style={{ color: "#f50000", }} /></li></a>
@@ -342,7 +342,7 @@ export default class LandingPage extends Component {
             </div>
           </div>
           <div className="card">
-            <img src="/doc-2.jpg" className="card-img-top" alt="..." />
+            <img src="./public/doc-2.jpg" className="card-img-top" alt="..." />
             <div className="overlay">
               <ul className=' d-flex gap-4 list-unstyled  justify-content-center'>
               <a href="#"><li> <FontAwesomeIcon icon={faFacebook} style={{ color: "#f50000", }} /></li></a>
@@ -361,7 +361,7 @@ export default class LandingPage extends Component {
             </div>
           </div>
           <div className="card">
-            <img src="/doc-3.jpg" className="card-img-top" alt="..." />
+            <img src="./public/doc-3.jpg" className="card-img-top" alt="..." />
             <div className="overlay">
               <ul className=' d-flex gap-4 list-unstyled  justify-content-center'>
               <a href="#"><li> <FontAwesomeIcon icon={faFacebook} style={{ color: "#f50000", }} /></li></a>
@@ -380,7 +380,7 @@ export default class LandingPage extends Component {
             </div>
           </div>
           <div className="card pe-4">
-            <img src="/doc-4.jpg" className="card-img-top" alt="..." />
+            <img src="./public/doc-4.jpg" className="card-img-top" alt="..." />
             <div className="overlay">
               <ul className=' d-flex gap-4 list-unstyled  justify-content-center'>
               <a href="#"><li> <FontAwesomeIcon icon={faFacebook} style={{ color: "#f50000", }} /></li></a>
@@ -436,7 +436,7 @@ export default class LandingPage extends Component {
           <div className="row row-cols-1 row-cols-md-3 g-4 w-75 cards justify-content-center">
             <div className="col d-flex justify-content-center">
               <div className="card text-center">
-                <img src="/image_1.jpg" className="card-img-top" alt="..." />
+                <img src="./public/image_1.jpg" className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title ">Scary Thing That You Don’t Get Enough Sleep</h5>
                   <p className="card-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -447,7 +447,7 @@ export default class LandingPage extends Component {
             </div>
             <div className="col d-flex justify-content-center">
               <div className="card text-center">
-                <img src="/image_2.jpg" className="card-img-top" alt="..." />
+                <img src="./public/image_2.jpg" className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">Scary Thing That You Don’t Get Enough Sleep</h5>
                   <p className="card-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -458,7 +458,7 @@ export default class LandingPage extends Component {
             </div>
             <div className="col d-flex justify-content-center">
               <div className="card text-center">
-                <img src="/image_3.jpg" className="card-img-top" alt="..." />
+                <img src="./public/image_3.jpg" className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">Scary Thing That You Don’t Get Enough Sleep</h5>
                   <p className="card-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -469,7 +469,7 @@ export default class LandingPage extends Component {
             </div>
             <div className="col d-flex justify-content-center">
               <div className="card text-center">
-                <img src="/image_4.jpg" className="card-img-top" alt="..." />
+                <img src="./public/image_4.jpg" className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">Scary Thing That You Don’t Get Enough Sleep</h5>
                   <p className="card-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -480,7 +480,7 @@ export default class LandingPage extends Component {
             </div>
             <div className="col d-flex justify-content-center">
               <div className="card text-center">
-                <img src="/image_5.jpg" className="card-img-top" alt="..." />
+                <img src="./public/image_5.jpg" className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">Scary Thing That You Don’t Get Enough Sleep</h5>
                   <p className="card-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -491,7 +491,7 @@ export default class LandingPage extends Component {
             </div>
             <div className="col d-flex justify-content-center">
               <div className="card text-center">
-                <img src="/image_6.jpg" className="card-img-top" alt="..." />
+                <img src="./public/image_6.jpg" className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">Scary Thing That You Don’t Get Enough Sleep</h5>
                   <p className="card-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
